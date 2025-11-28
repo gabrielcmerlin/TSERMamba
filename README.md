@@ -2,8 +2,6 @@
 
 Slides (PT-BR): [link](https://docs.google.com/presentation/d/1p5rdkkt7N5BaP6ixbMNJ9ScUbXEnQocA/edit?usp=sharing&ouid=103446319285524883520&rtpof=true&sd=true)
 
-Video presentation (PT-BR): [link]()
-
 ## Description
 
 Time series analysis is fundamental in critical domains such as healthcare, industry, and finance, driving the search for Deep Learning (DL) models capable of handling the high dimensionality of data. Architectures such as Transformers, with their self-attention mechanism, and Mamba (based on State Space Models – SSM), with linear complexity and content selectivity, have emerged as cutting-edge alternatives. This work aimed to analyze the predictive capability and performance of these modern architectures for the task of Time Series Extrinsic Regression (TSER), which consists of mapping an entire time series to an external continuous target variable. To this end, two state-of-the-art models originally proposed for Time Series Classification (TSC) were adapted: ConvTran (Transformer-based) and TSCMamba (SSM-based). The adapted models were rigorously compared to well-established baselines across a collection of benchmark datasets. The results show that the high architectural complexity and hardware cost of the adapted DL architectures do not translate into superior performance or stability for the TSER task. In contrast, MiniROCKET and Random Forest established themselves as the statistical leaders in the overall ranking. It is concluded that, in the current state of the art, the evaluated DL models do not justify the investment for most TSER problems, reinforcing the superiority of more efficient and robust approaches.
